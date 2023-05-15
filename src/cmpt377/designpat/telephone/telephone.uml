@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="215.87499999999994" y="-198.12499999999997">cmpt377.designpat.telephone.Observer</node>
+    <node x="-26.083333333333428" y="-142.29166666666663">cmpt377.designpat.telephone.Model</node>
+    <node x="448.9999999999999" y="83.125">cmpt377.designpat.telephone.KeyPad</node>
+    <node x="222.00000000000023" y="-128.33333333333331">cmpt377.designpat.telephone.Screen</node>
+    <node x="3.0833333333332362" y="-20.0">cmpt377.designpat.telephone.PhoneModel</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="cmpt377.designpat.telephone.PhoneModel" target="cmpt377.designpat.telephone.Model" relationship="GENERALIZATION">
+      <point x="-43.5" y="-61.5" />
+      <point x="35.58333333333323" y="-54.145833333333314" />
+      <point x="6.416666666666572" y="-54.145833333333314" />
+      <point x="-15.0" y="27.0" />
+    </edge>
+    <edge source="cmpt377.designpat.telephone.Screen" target="cmpt377.designpat.telephone.Observer" relationship="REALIZATION">
+      <point x="81.5" y="0.0" />
+      <point x="270.37499999999994" y="-101.33333333333331" />
+      <point x="0.0" y="-14.5" />
+    </edge>
+    <edge source="cmpt377.designpat.telephone.Model" target="cmpt377.designpat.telephone.Observer" relationship="TO_MANY">
+      <point x="-0.0" y="27.0" />
+      <point x="21.416666666666572" y="-183.62499999999997" />
+      <point x="-54.5" y="0.0" />
+    </edge>
+    <edge source="cmpt377.designpat.telephone.Screen" target="cmpt377.designpat.telephone.PhoneModel" relationship="TO_ONE">
+      <point x="-3.3333333362861595E-4" y="27.0" />
+      <point x="303.4996666666666" y="33.5" />
+      <point x="72.87499999999983" y="-8.0" />
+    </edge>
+    <edge source="cmpt377.designpat.telephone.KeyPad" target="cmpt377.designpat.telephone.PhoneModel" relationship="TO_ONE">
+      <point x="-102.08333333333326" y="0.41666666666662877" />
+      <point x="278.04166666666663" y="122.04166666666663" />
+      <point x="278.04166666666663" y="72.04166666666669" />
+      <point x="79.16666666666671" y="30.541666666666686" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Compact" zoom="0.9600000000000002" showDependencies="true" x="323.87499999999994" y="103.29166666666663" />
+  <SelectedNodes>
+    <node>cmpt377.designpat.telephone.PhoneModel</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="-74.5" y="48.5">cmpt377.designpat.bakery.ChocolateCake</node>
+    <node x="-41.0" y="-14.5">cmpt377.designpat.bakery.Cake</node>
+    <node x="74.0" y="-14.5">cmpt377.designpat.bakery.Order</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="cmpt377.designpat.bakery.ChocolateCake" target="cmpt377.designpat.bakery.Cake" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Compact" zoom="1.0" showDependencies="false" x="807.5" y="383.0" />
+  <SelectedNodes>
+    <node>cmpt377.designpat.bakery.Order</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
