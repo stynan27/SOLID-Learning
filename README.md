@@ -1,2 +1,2 @@
 # SOLID-Learning
-Repository to track learnings related to SOLID concepts in Java.
+Repository to track learnings related to SOLID design principles in Java.
