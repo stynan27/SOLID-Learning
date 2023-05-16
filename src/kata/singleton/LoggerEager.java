@@ -1,18 +1,22 @@
 package kata.singleton;
 
+
+// Resources: https://www.baeldung.com/java-singleton-double-checked-locking
+
 // TODO Refactor the logging service so that there is only one instance throughout the application.
 //      Make sure this operation is thread-safe by using the double-lock check algorithm
-public class Logger {
+public class LoggerEager {
     // Make constructor private, to prevent outside declaration
-    private Logger() {
+    private LoggerEager() {
 
     }
 
     // Constant/Global logger INSTANCE to be shared
-    private static final Logger INSTANCE = new Logger();
+    // static fields and blocks are initialized one after another (Synchronization!)
+    private static final LoggerEager INSTANCE = new LoggerEager();
 
     // Get Logger Instance/global class context
-    public static Logger getInstance() {
+    public static LoggerEager getInstance() {
         return INSTANCE;
     }
 
